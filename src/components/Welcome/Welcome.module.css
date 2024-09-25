@@ -1,10 +1,46 @@
-.title {
-  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
-  font-size: rem(100px);
-  font-weight: 900;
-  letter-spacing: rem(-2px);
-
-  @media (max-width: $mantine-breakpoint-md) {
-    font-size: rem(50px);
-  }
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(to bottom, #002559, #032850);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: url('/public/images/FONDO_01.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+}
+
+.logoContainer {
+  margin: 10px 0;
+}
+
+.firstLogo {
+  width: 250px;
+  height: auto;
+}
+
+.secondLogo {
+  width: 130px;
+  height: auto;
+}
+
+.thirdLogo {
+  width: 200px;
+  height: auto;
+}
+
+.subtext {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+

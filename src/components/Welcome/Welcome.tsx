@@ -1,23 +1,47 @@
-import { Anchor, Text, Title } from '@mantine/core';
+import { useNavigate } from 'react-router-dom';
+import { Button, Container, Divider, Text } from '@mantine/core';
 import classes from './Welcome.module.css';
 
 export function Welcome() {
+  const navigate = useNavigate();
+
+  const handleStartExperience = () => {
+    navigate('/challenge-cancer');
+  };
+
   return (
-    <>
-      <Title className={classes.title} ta="center" mt={100}>
-        Welcome to{' '}
-        <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
-          Mantine
+    <div className={classes.wrapper}>
+      <Container className={classes.container}>
+        <div className={classes.logoContainer}>
+          <img
+            src="/public/images/LOGOS_DESAFIANDO_EL CANCER-01.png"
+            alt="Logo"
+            className={classes.firstLogo}
+          />
+        </div>
+        <Divider color="white" />
+        <div className={classes.logoContainer}>
+          <img
+            src="/public/images/LOGOSIMBOLO_ASOCIACION.png"
+            alt="Logo"
+            className={classes.secondLogo}
+          />
+        </div>
+        <div className={classes.logoContainer}>
+          <img
+            src="/public/images/LOGO_CONQUER_BLANCO.png"
+            alt="Logo"
+            className={classes.thirdLogo}
+          />
+        </div>
+        <Divider color="white" />
+        <Text className={classes.subtext}>
+          Brindando oportunidades de financiamiento en investigación
         </Text>
-      </Title>
-      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
-        This starter Vite project includes a minimal setup, if you want to learn more on Mantine +
-        Vite integration follow{' '}
-        <Anchor href="https://mantine.dev/guides/vite/" size="lg">
-          this guide
-        </Anchor>
-        . To get started edit pages/Home.page.tsx file.
-      </Text>
-    </>
+        <Button variant="filled" color="lime" mt="lg" size="lg" onClick={handleStartExperience}>
+          INICIAR EXPERIENCIA
+        </Button>
+      </Container>
+    </div>
   );
 }

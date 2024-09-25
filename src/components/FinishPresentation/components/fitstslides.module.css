@@ -1,0 +1,64 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #f9f9f9, #c6d8e7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: url('/public/images/FONDO_03.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+}
+
+  
+  .titleBlue {
+    color: #064a8e;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 100;
+  }
+
+  .logoContainer {
+    margin: 10px 0;
+  }
+
+  .logoConquer {
+    width: 120px;
+    margin: 10px 0;
+  }
+
+  .plusImage {
+    position:fixed;
+    top: 170px;
+    left: 350px;
+    margin: 10px 0;
+    width: 70px;
+  }
+
+  .logoCancer {
+    width: 190px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .logoAsociacion {
+    width: 190px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .description,
+  .subDescription {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+  }
