@@ -11,7 +11,7 @@ export function SecondSlide() {
         </div>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
+            src="/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
             alt="Asociación Logo"
             className={classes.logoCancer}
           />
@@ -54,7 +54,7 @@ export function SecondSlide() {
         <Divider mt="xs" color="black" />
         <div style={{ marginBlock: '5px' }}>
           <img
-            src="/public/images/LOGO_ASOCIACION.png"
+            src="/images/LOGO_ASOCIACION.png"
             alt="Asociación Logo"
             className={classes.logoAsociacion}
           />
@@ -62,7 +62,7 @@ export function SecondSlide() {
         <Divider color="black" />
         <div>
           <img
-            src="/public/images/LOGO_CONQUER.png"
+            src="/images/LOGO_CONQUER.png"
             alt="Asociación Logo"
             className={classes.logoConquer}
           />

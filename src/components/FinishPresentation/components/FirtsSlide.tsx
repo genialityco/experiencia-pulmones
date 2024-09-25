@@ -10,7 +10,7 @@ export function FirstSlide() {
         <Title className={classes.titleBlue}>EL CÁNCER</Title>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/SIMBOLO_MAS.png"
+            src="/images/SIMBOLO_MAS.png"
             alt="Asociación Logo"
             className={classes.plusImage}
           />
@@ -24,7 +24,7 @@ export function FirstSlide() {
         </div>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-02.png"
+            src="/images/LOGOS_DESAFIANDO_EL_CANCER-02.png"
             alt="Asociación Logo"
             className={classes.logoCancer}
           />
@@ -37,7 +37,7 @@ export function FirstSlide() {
         <Divider color="black" />
         <div style={{ marginBlock: '5px' }}>
           <img
-            src="/public/images/LOGO_ASOCIACION.png"
+            src="/images/LOGO_ASOCIACION.png"
             alt="Asociación Logo"
             className={classes.logoAsociacion}
           />
@@ -45,7 +45,7 @@ export function FirstSlide() {
         <Divider color="black" />
         <div>
           <img
-            src="/public/images/LOGO_CONQUER.png"
+            src="/images/LOGO_CONQUER.png"
             alt="Asociación Logo"
             className={classes.logoConquer}
           />

@@ -15,7 +15,7 @@ export function ThirdSlide() {
           {/* Logo Desafiando el Cáncer */}
           <div className={classes.logoContainer}>
             <img
-              src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
+              src="/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
               alt="Desafiando el Cáncer Logo"
               className={classes.logoCancer}
             />
@@ -23,7 +23,7 @@ export function ThirdSlide() {
 
           <div className={classes.logoContainer}>
             <img
-              src="/public/images/LOGOSIMBOLO_ASOCIACION.png"
+              src="/images/LOGOSIMBOLO_ASOCIACION.png"
               alt="Desafiando el Cáncer Logo"
               className={classes.logoSimboloAsociacion}
             />
@@ -37,7 +37,7 @@ export function ThirdSlide() {
           {/* Logo de la asociación */}
           <div className={classes.logoContainer}>
             <img
-              src="/public/images/LOGO_ASOCIACION.png"
+              src="/images/LOGO_ASOCIACION.png"
               alt="Asociación Colombiana Logo"
               className={classes.logoAsociacion}
             />
@@ -47,7 +47,7 @@ export function ThirdSlide() {
         {/* Logos de Conquer Cancer y la Asociación */}
         <div className={classes.logoBottomContainer}>
           <img
-            src="/public/images/LOGO_CONQUER.png"
+            src="/images/LOGO_CONQUER.png"
             alt="Conquer Cancer Logo"
             className={classes.logoConquer}
           />

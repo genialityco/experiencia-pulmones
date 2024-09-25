@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, Container, Divider, Text, TextInput, Title } from '@mantine/core';
+import { Container, Divider } from '@mantine/core';
 import classes from './Activity.module.css';
 
 export function Activity() {

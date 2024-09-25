@@ -14,7 +14,7 @@ export function Welcome() {
       <Container className={classes.container}>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-01.png"
+            src="/images/LOGO_CANCER-01.png"
             alt="Logo"
             className={classes.firstLogo}
           />
@@ -22,14 +22,14 @@ export function Welcome() {
         <Divider color="white" />
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOSIMBOLO_ASOCIACION.png"
+            src="/images/LOGOSIMBOLO_ASOCIACION.png"
             alt="Logo"
             className={classes.secondLogo}
           />
         </div>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGO_CONQUER_BLANCO.png"
+            src="/images/LOGO_CONQUER_BLANCO.png"
             alt="Logo"
             className={classes.thirdLogo}
           />
