@@ -24,7 +24,7 @@
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    height: 80%;
+    height: 50%;
   }
   
   .introText {
@@ -32,6 +32,7 @@
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
+    height: 15%;
   }
   
   .descriptionText {
@@ -39,11 +40,13 @@
     margin-top: 10px;
     color: black;
     font-weight: 600;
+    height: auto;
   }
   
   /* Estilo para los logos */
   .logoContainer {
     margin: 20px 0;
+    height: 40%;
   }
   
   .logoCancer {

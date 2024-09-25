@@ -21,13 +21,13 @@ export function ThirdSlide() {
             />
           </div>
 
-          <div className={classes.logoContainer}>
+          {/* <div className={classes.logoContainer}>
             <img
               src="/images/LOGOSIMBOLO_ASOCIACION.png"
               alt="Desafiando el Cáncer Logo"
               className={classes.logoSimboloAsociacion}
             />
-          </div>
+          </div> */}
 
           {/* Texto adicional */}
           <Text className={classes.descriptionText}>
@@ -35,13 +35,13 @@ export function ThirdSlide() {
           </Text>
 
           {/* Logo de la asociación */}
-          <div className={classes.logoContainer}>
+          {/* <div className={classes.logoContainer}>
             <img
               src="/images/LOGO_ASOCIACION.png"
               alt="Asociación Colombiana Logo"
               className={classes.logoAsociacion}
             />
-          </div>
+          </div> */}
         </Box>
 
         {/* Logos de Conquer Cancer y la Asociación */}

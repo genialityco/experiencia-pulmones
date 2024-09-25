@@ -31,7 +31,7 @@ export function FirstSlide() {
         </div>
         <div style={{ marginBottom: '8px' }}>
           <Text className={classes.subDescription}>en alianza con</Text>
-          <Text className={classes.subDescription}>Conquer Cancer ASCO Fundation...</Text>
+          <Text className={classes.subDescription}>Conquer Cancer ASCO</Text>
           <Text className={classes.subDescription}>Fundation...</Text>
         </div>
         <Divider color="black" />
