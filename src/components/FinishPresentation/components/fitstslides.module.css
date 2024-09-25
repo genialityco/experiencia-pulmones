@@ -38,8 +38,8 @@
 
   .plusImage {
     position:fixed;
-    top: 170px;
-    left: 350px;
+    top: 250px;
+    left: 40%;
     margin: 10px 0;
     width: 70px;
   }

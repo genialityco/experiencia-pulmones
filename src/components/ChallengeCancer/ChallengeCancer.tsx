@@ -17,7 +17,7 @@ export function ChallengeCancer() {
         <Title className={classes.title}>AYÚDANOS A DESAFIAR EL CÁNCER</Title>
 
         <div style={{ height: '250px' }}>
-          <Text>Hola</Text>
+          <Text> </Text>
         </div>
 
         <div className={classes.logoContainer}>
