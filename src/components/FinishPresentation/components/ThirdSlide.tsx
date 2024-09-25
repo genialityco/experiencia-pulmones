@@ -15,7 +15,7 @@ export function ThirdSlide() {
           {/* Logo Desafiando el Cáncer */}
           <div className={classes.logoContainer}>
             <img
-              src="/public/images/LOGOS_DESAFIANDO_EL CANCER-03.png"
+              src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
               alt="Desafiando el Cáncer Logo"
               className={classes.logoCancer}
             />

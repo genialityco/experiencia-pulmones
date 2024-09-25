@@ -11,7 +11,7 @@ export function SecondSlide() {
         </div>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOS_DESAFIANDO_EL CANCER-03.png"
+            src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-03.png"
             alt="Asociación Logo"
             className={classes.logoCancer}
           />

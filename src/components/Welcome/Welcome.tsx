@@ -14,7 +14,7 @@ export function Welcome() {
       <Container className={classes.container}>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOS_DESAFIANDO_EL CANCER-01.png"
+            src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-01.png"
             alt="Logo"
             className={classes.firstLogo}
           />

@@ -10,7 +10,7 @@ export function FirstSlide() {
         <Title className={classes.titleBlue}>EL CÁNCER</Title>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/SIMBOLO_+.png"
+            src="/public/images/SIMBOLO_MAS.png"
             alt="Asociación Logo"
             className={classes.plusImage}
           />
@@ -24,7 +24,7 @@ export function FirstSlide() {
         </div>
         <div className={classes.logoContainer}>
           <img
-            src="/public/images/LOGOS_DESAFIANDO_EL CANCER-02.png"
+            src="/public/images/LOGOS_DESAFIANDO_EL_CANCER-02.png"
             alt="Asociación Logo"
             className={classes.logoCancer}
           />
