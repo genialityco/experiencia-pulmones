@@ -1,14 +1,12 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Button, Container, Text, TextInput, Title } from '@mantine/core';
 import classes from './ChallengeCancer.module.css';
 
 export function ChallengeCancer() {
   const [name, setName] = useState('');
-  const navigate = useNavigate();
 
   const handleGoActivity = () => {
-    navigate('/activity');
+    window.location.href = 'https://playcanv.as/b/b904f4dd';
   };
 
   return (
