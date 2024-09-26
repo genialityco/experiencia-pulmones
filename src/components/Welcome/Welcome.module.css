@@ -12,7 +12,7 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
-  background: url('/public/images/FONDO_01.jpg') no-repeat center;
+  background: url('/images/FONDO_01.jpg') no-repeat center;
   background-size: cover;
   width: 100%;
   max-width: 400px;

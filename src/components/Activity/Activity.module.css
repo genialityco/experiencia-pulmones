@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url('/public/images/EXPERIENCIA_PULMONES_MOBILE_04.png') no-repeat center;
+  background: url('/images/EXPERIENCIA_PULMONES_MOBILE_04.png') no-repeat center;
   background-size: cover; /* Cambiado de 'contain' a 'cover' */
   width: 100%;
   max-width: 400px;

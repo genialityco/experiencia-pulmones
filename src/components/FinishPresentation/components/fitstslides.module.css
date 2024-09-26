@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url('/public/images/FONDO_03.jpg') no-repeat center;
+  background: url('/images/FONDO_03.jpg') no-repeat center;
   background-size: cover;
   width: 100%;
   max-width: 400px;
