@@ -6,8 +6,7 @@ export function SecondSlide() {
     <div className={classes.wrapper}>
       <Container className={classes.container}>
         <div style={{ marginTop: '5px' }}>
-          <Text className={classes.description}>Bajo el nuevo programa de la Asociación</Text>
-          <Text className={classes.description}>Colombiana de Hematología y Oncología</Text>
+          <Text className={classes.description}>Información y requisitos para participar en</Text>
         </div>
         <div className={classes.logoContainer}>
           <img
@@ -17,37 +16,37 @@ export function SecondSlide() {
           />
         </div>
         <div style={{ marginTop: '5px' }}>
-          <Text className={classes.description}>se brindarán…</Text>
+          <Text className={classes.description}>Próximamente</Text>
         </div>
 
         {/* Box para la tarjeta de subvenciones */}
         <Box className={classes.grantBox}>
           <div className={classes.textContent}>
             <Text className={classes.grantTitle}>
-              DOS SUBVENCIONES DE INVESTIGACIÓN PARA INVESTIGADORES NIVEL SUPERIOR DE
+              2 SUBVENCIONES DE INVESTIGACIÓN PARA INVESTIGADORES NIVEL SUPERIOR
             </Text>
             <Text className={classes.grantSubtitle}>
-              Aprox. $300.000.000 de pesos colombianos.
+              $300.000.000 de pesos colombianos aprox. 
             </Text>
           </div>
           <div className={classes.amountContent}>
             <Text className={classes.amountText} c="lime">USD 75.000</Text>
-            <Text className={classes.amountSubText} c="lime">c/u</Text>
+            <Text className={classes.amountSubText} c="lime">C/U</Text>
           </div>
         </Box>
 
         <Box className={classes.grantBox}>
           <div className={classes.textContent}>
             <Text className={classes.grantTitle}>
-              DOS SUBVENCIONES DE INVESTIGACIÓN PARA INVESTIGADORES NIVEL MEDIO DE
+              2 SUBVENCIONES DE INVESTIGACIÓN PARA INVESTIGADORES NIVEL MEDIO
             </Text>
             <Text className={classes.grantSubtitle}>
-              Aprox. $100.000.000 de pesos colombianos.
+              $100.000.000 de pesos colombianos aprox. 
             </Text>
           </div>
           <div className={classes.amountContent}>
             <Text className={classes.amountText} c="lime">USD 25.000</Text>
-            <Text className={classes.amountSubText} c="lime">c/u</Text>
+            <Text className={classes.amountSubText} c="lime">C/U</Text>
           </div>
         </Box>
 

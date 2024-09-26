@@ -5,7 +5,7 @@ export function FirstSlide() {
   return (
     <div className={classes.wrapper}>
       <Container className={classes.container}>
-        <Title className={classes.titleBlue}>LOGRASTE</Title>
+        <Title className={classes.titleBlue}>LOGRAMOS</Title>
         <Title className={classes.titleBlue}>DESAFIAR</Title>
         <Title className={classes.titleBlue}>EL CÁNCER</Title>
         <div className={classes.logoContainer}>
@@ -20,7 +20,7 @@ export function FirstSlide() {
         <div style={{ marginTop: '5px' }}>
           <Text className={classes.description}>La Asociación Colombiana</Text>
           <Text className={classes.description}>de Hematología y Oncología,</Text>
-          <Text className={classes.description}>lanza su programa</Text>
+          <Text className={classes.description}>presenta su programa</Text>
         </div>
         <div className={classes.logoContainer}>
           <img
@@ -31,8 +31,7 @@ export function FirstSlide() {
         </div>
         <div style={{ marginBottom: '8px' }}>
           <Text className={classes.subDescription}>en alianza con</Text>
-          <Text className={classes.subDescription}>Conquer Cancer ASCO</Text>
-          <Text className={classes.subDescription}>Fundation...</Text>
+          <Text className={classes.subDescription}>Conquer Cancer ASCO Fundation</Text>
         </div>
         <Divider color="black" />
         <div style={{ marginBlock: '5px' }}>

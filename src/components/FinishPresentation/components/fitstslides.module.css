@@ -24,7 +24,7 @@
   
   .titleBlue {
     color: #064a8e;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     z-index: 100;
   }
@@ -39,11 +39,8 @@
   }
 
   .plusImage {
-    position:fixed;
-    top: 230px;
-    left: 40%;
-    margin: 10px 0;
-    width: 70px;
+    margin: 0px 0;
+    width: 50px;
   }
 
   .logoCancer {

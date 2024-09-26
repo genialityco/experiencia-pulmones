@@ -9,7 +9,7 @@ export function ThirdSlide() {
         {/* Caja principal con fondo verde */}
         <Box className={classes.greenBox}>
           <Text className={classes.introText}>
-            En Octubre, espera toda la información y requisitos para participar en
+            Información y requisitos para participar, próximamente
           </Text>
 
           {/* Logo Desafiando el Cáncer */}
