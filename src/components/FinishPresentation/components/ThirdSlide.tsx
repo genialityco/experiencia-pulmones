@@ -21,13 +21,13 @@ export function ThirdSlide() {
             />
           </div>
 
-          {/* <div className={classes.logoContainer}>
+          <div className={classes.logoContainer}>
             <img
               src="/images/LOGOSIMBOLO_ASOCIACION.png"
               alt="Desafiando el Cáncer Logo"
               className={classes.logoSimboloAsociacion}
             />
-          </div> */}
+          </div>
 
           {/* Texto adicional */}
           <Text className={classes.descriptionText}>
