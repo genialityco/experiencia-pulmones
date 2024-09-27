@@ -1,9 +1,8 @@
-import { useState } from 'react';
-import { Button, Container, Text, TextInput, Title } from '@mantine/core';
+import { Button, Container, Text, Title } from '@mantine/core';
 import classes from './ChallengeCancer.module.css';
 
 export function ChallengeCancer() {
-  const [name, setName] = useState('');
+  // const [name, setName] = useState('');
 
   const handleGoActivity = () => {
     window.location.href = 'https://playcanv.as/p/vrjvGQDR/';
@@ -33,14 +32,14 @@ export function ChallengeCancer() {
             className={classes.logoConquer}
           />
         </div>
-
+{/* 
         <TextInput
           variant="unstyled"
           className={classes.textInput}
           value={name}
           onChange={(event) => setName(event.currentTarget.value)}
           placeholder="INGRESA TU NOMBRE AQUÍ"
-        />
+        /> */}
 
         <Button variant="filled" color="lime" mt="lg" size="lg" onClick={handleGoActivity}>
           SIGUIENTE
