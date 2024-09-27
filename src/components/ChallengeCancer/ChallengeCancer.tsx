@@ -6,7 +6,7 @@ export function ChallengeCancer() {
   const [name, setName] = useState('');
 
   const handleGoActivity = () => {
-    window.location.href = 'https://playcanv.as/b/b904f4dd';
+    window.location.href = 'https://playcanv.as/b/969e3200';
   };
 
   return (
